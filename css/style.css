@@ -321,6 +321,10 @@ a {
     cursor: pointer;
 }
 
+.project__item {
+    max-width: 1580px;
+}
+
 .project__item:hover  {
     filter: brightness(64%);
     transition:  all 0.3s;
