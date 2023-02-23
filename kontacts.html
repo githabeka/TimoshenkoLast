@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timoshenko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="intro intro-two">
+        <div class="container">
+            <header class="header">
+                <div class="header__inner">
+                    <a class="header__logo" href="index.html">
+                        <img src="img/project-two-logo.png" alt="">
+                    </a>
+                    <nav class="header__nav header__nav-two">
+                        <a onmouseover="hoverOnFirst()" onmouseout="hoverOffFirst()" class="header__link header__link-black" id="first" href="project-two.html">Проекты</a>
+                        <a onmouseover="hoverOnSecond()" onmouseout="hoverOffSecond()" class="header__link header__link-black" id="second" href="services-block.html">Услуги</a>
+                        <a onmouseover="hoverOnThree()" onmouseout="hoverOffThree()" class="header__link header__link-black" id="three" href="kontacts.html">контакты</a>
+                    </nav>
+                    <a class="header__title header__title-two" href="#"><span>/</span>   начать проект</a>
+                </div>
+                <hr class="hr">
+            </header>
+            <p class="intro-two__title">/  контакты</p>
+            <hr class="hr">
+        </div>
+    </div>
+
+    <section class="kontacts">
+        <div class="container">
+            <div class="kontacts__inner">
+                <div class="kontacts__item">
+                    <p class="kontacts__text">
+                        Пишите по любым вопросам или просто познакомиться. Подробно отвечу на вопросы по реализации проектов любой сложности, сроков и бюджета 
+                    </p>
+                    <p class="kontacts__title">info@timoshenko.by</p>
+                </div>
+                <div class="kontacts__item">
+                    <p class="kontacts__text">
+                        Звонить тоже можно :)
+                    </p>
+                    <br>
+                    <p class="kontacts__text">В Беларуси:</p>
+                    <a class="kontacts__tel" href="tel:+375(29)5310170">+375(29) 531 01 70</a>
+                    <p class="kontacts__text">Из России:</p>
+                    <a class="kontacts__tel" href="tel:+7(915)5316429">+7(915) 531 64 29</a>
+                </div>
+            </div>
+                <div class="kontacts__accordion" data-accordion="open">
+                    <p class="kontacts__last-title kontacts__accordion-header"><span>Отправить сообщение</span></p>
+                    <form class="kontacts__form kontacts__accordion-body">
+                        <p class="form__subtitle">задача:</p>
+                        <input class="form__input" placeholder="Опишите задачу в свободной форме">
+                        <p class="form__subtitle">Контакты</p>
+                        <div class="form__row">
+                            <input class="form__input form__input-half" type="text" placeholder="Имя">
+                            <input class="form__input form__input-half" type="text" placeholder="Компания">
+                        </div>
+                        <div class="form__row">
+                            <input class="form__input form__input-half" type="email" placeholder="e-mail">
+                            <input class="form__input form__input-half" type="tel" placeholder="Телефон">
+                        </div>
+                        <input class="form__input" type="text" placeholder="Необходимые ссылки (например, сайт компании)">
+                        <button class="form__button" type="submit">отправить</button>
+                        <p class="form__license">
+                            Нажимая кнопку “отправить”, вы даете согласие на <a href="">обработку персональных данных</a>. 
+                        </p>
+                    </form>
+                </div>
+        </div>
+    </section>
+
+    <div class="kontacts__map">
+        <div class="container">
+            <p class="kontacts__map-title">
+                г. Гомель, ул. Советская 136/1
+            </p>
+        </div>
+    </div>
+
+     <footer class="footer footer__kontacts">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer__question footer__question-kontacts">Остались <br> вопросы?</p>
+                <ul class="footer__social footer__social-kontacts">
+                    <a class="footer__social-link" href="#">WhatsApp</a>
+                    <a class="footer__social-link" href="#">Telegram</a>
+                    <a class="footer__social-link" href="#">Skype</a>
+                    <a class="footer__social-link" href="#">E-mail</a>
+                </ul>
+                <ul class="footer__social footer__social-kontacts">
+                    <a class="footer__social-link" href="index.html">Главная</a>
+                    <a class="footer__social-link" href="we.html">О нас</a>
+                    <a class="footer__social-link" href="project-two.html">проекты</a>
+                    <a class="footer__social-link" href="services-block.html">Услуги</a>
+                    <a class="footer__social-link" href="kontacts.html">Контакты</a>
+                </ul>
+                <ul class="footer__tel footer__social-kontacts">
+                    <li class="footer__tel-link">
+                        <a href="tel:+375(29)5310170">+375(29) 531 01 70</a>
+                    </li>
+                    <li class="footer__tel-link">
+                        <a href="tel:+7(915) 531 64 29">+7(915) 531 64 29</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <hr class="hr">
+    <div class="copyright">
+        <div class="container">
+            <p class="copyrigth__title">
+                TIMOSHENKO GROUP © 2023
+            </p>
+            <p class="copyright__text">
+                ИП Тимошенко Вадим Васильевич УНП 491633568
+            </p>
+        </div>
+    </div>  
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    defer></script>
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
