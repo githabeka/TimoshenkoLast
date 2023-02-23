@@ -47,7 +47,7 @@ kontacts__accordion();
 $(function(){
 
     $('.projects__slider').slick({
-        arrows: true,
+        arrows: false,
         dots: false,
         slidesToShow: 1,
         // responsive: [
